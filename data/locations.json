@@ -1,0 +1,893 @@
+[
+  {
+    "has_public_page": true,
+    "id": "1648149285200090",
+    "name": "Spižírna 1902",
+    "slug": "spizirna-1902",
+    "location-id": 1648149285200090,
+    "title": "Spižírna 1902",
+    "lat": 50.07519,
+    "lng": 14.45257
+  },
+  {
+    "has_public_page": true,
+    "id": "1017023316",
+    "name": "onesip coffee",
+    "slug": "onesip-coffee",
+    "location-id": 1017023316,
+    "title": "onesip coffee",
+    "lat": 50.09128,
+    "lng": 14.42539
+  },
+  {
+    "has_public_page": true,
+    "id": "15384761",
+    "name": "Bistro 8",
+    "slug": "bistro-8",
+    "location-id": 15384761,
+    "title": "Bistro 8",
+    "lat": 50.09837,
+    "lng": 14.43218
+  },
+  {
+    "has_public_page": true,
+    "id": "342609259501177",
+    "name": "Plecnik",
+    "slug": "plecnik",
+    "location-id": 342609259501177,
+    "title": "Plecnik",
+    "lat": 50.07848,
+    "lng": 14.45023
+  },
+  {
+    "has_public_page": true,
+    "id": "139388882",
+    "name": "Gorila.sk Urban Space",
+    "slug": "gorilask-urban-space",
+    "location-id": 139388882,
+    "title": "Gorila.sk Urban Space",
+    "lat": 48.1455751659,
+    "lng": 17.1088416931
+  },
+  {
+    "has_public_page": true,
+    "id": "1018938902",
+    "name": "Pán Cakes - a jeho palacinky",
+    "slug": "pan-cakes-a-jeho-palacinky"
+  },
+  {
+    "has_public_page": true,
+    "id": "888240871",
+    "name": "Old Market Hall Bratislava",
+    "slug": "old-market-hall-bratislava",
+    "location-id": 888240871,
+    "title": "Old Market Hall Bratislava",
+    "lat": 48.14457,
+    "lng": 17.11164
+  },
+  {
+    "has_public_page": true,
+    "id": "1016955941",
+    "name": "RegioJet",
+    "slug": "regiojet",
+    "location-id": 1016955941,
+    "title": "RegioJet",
+    "lat": 49.1942291,
+    "lng": 16.6081696
+  },
+  {
+    "has_public_page": true,
+    "id": "263045930",
+    "name": "Coffee room.",
+    "slug": "coffee-room"
+  },
+  {
+    "has_public_page": true,
+    "id": "1019249331",
+    "name": "Eska",
+    "slug": "eska"
+  },
+  {
+    "has_public_page": true,
+    "id": "342279507",
+    "name": "Město Třebíč",
+    "slug": "mesto-trebic",
+    "location-id": 342279507,
+    "title": "Město Třebíč",
+    "lat": 49.216484758,
+    "lng": 15.8801551025
+  },
+  {
+    "has_public_page": true,
+    "id": "342279507",
+    "name": "Město Třebíč",
+    "slug": "mesto-trebic",
+    "location-id": 342279507,
+    "title": "Město Třebíč",
+    "lat": 49.216484758,
+    "lng": 15.8801551025
+  },
+  {
+    "has_public_page": true,
+    "id": "1023050344",
+    "name": "Triko kafe & koloniál",
+    "slug": "triko-kafe-kolonial",
+    "location-id": 1023050344,
+    "title": "Triko kafe & koloniál",
+    "lat": 50.06726,
+    "lng": 14.39868
+  },
+  {
+    "has_public_page": true,
+    "id": "294941992",
+    "name": "Cafedu",
+    "slug": "cafedu",
+    "location-id": 294941992,
+    "title": "Cafedu",
+    "lat": 50.07855,
+    "lng": 14.43227
+  },
+  {
+    "has_public_page": true,
+    "id": "174757059741493",
+    "name": "Kavárna štěstí",
+    "slug": "kavarna-stesti"
+  },
+  {
+    "has_public_page": true,
+    "id": "1021868227",
+    "name": "Super Tramp Coffee",
+    "slug": "super-tramp-coffee",
+    "location-id": 1021868227,
+    "title": "Super Tramp Coffee",
+    "lat": 50.07965,
+    "lng": 14.41828
+  },
+  {
+    "has_public_page": true,
+    "id": "265604875",
+    "name": "mamacoffee na Jiřího z Poděbrad",
+    "slug": "mamacoffee-na-jiriho-z-podebrad",
+    "location-id": 265604875,
+    "title": "mamacoffee na Jiřího z Poděbrad",
+    "lat": 50.07873,
+    "lng": 14.45117
+  },
+  {
+    "has_public_page": true,
+    "id": "1201955903244210",
+    "name": "Hotel Farma",
+    "slug": "hotel-farma"
+  },
+  {
+    "has_public_page": true,
+    "id": "304668263200503",
+    "name": "Marks and Spencer",
+    "slug": "marks-and-spencer"
+  },
+  {
+    "has_public_page": true,
+    "id": "237868820",
+    "name": "Costa Coffee Czech Republic",
+    "slug": "costa-coffee-czech-republic",
+    "location-id": 237868820,
+    "title": "Costa Coffee Czech Republic",
+    "lat": 50.0784808007,
+    "lng": 14.4609852207
+  },
+  {
+    "has_public_page": true,
+    "id": "74171934",
+    "name": "Café Modi",
+    "slug": "cafe-modi",
+    "location-id": 74171934,
+    "title": "Café Modi",
+    "lat": 50.07783,
+    "lng": 14.41929
+  },
+  {
+    "has_public_page": true,
+    "id": "240629674",
+    "name": "Coffee House Prague",
+    "slug": "coffee-house-prague",
+    "location-id": 240629674,
+    "title": "Coffee House Prague",
+    "lat": 50.0718,
+    "lng": 14.4488
+  },
+  {
+    "has_public_page": true,
+    "id": "15727689",
+    "name": "I Need Coffee",
+    "slug": "i-need-coffee",
+    "location-id": 15727689,
+    "title": "I Need Coffee",
+    "lat": 50.07358,
+    "lng": 14.41614
+  },
+  {
+    "has_public_page": true,
+    "id": "1585017221792663",
+    "name": "Dos Mundos Café",
+    "slug": "dos-mundos-cafe",
+    "location-id": 1585017221792663,
+    "title": "Dos Mundos Café",
+    "lat": 50.09991,
+    "lng": 14.42791
+  },
+  {
+    "has_public_page": true,
+    "id": "1016521914",
+    "name": "Cafe Letka",
+    "slug": "cafe-letka",
+    "location-id": 1016521914,
+    "title": "Cafe Letka",
+    "lat": 50.09819,
+    "lng": 14.42548
+  },
+  {
+    "has_public_page": true,
+    "id": "95406486",
+    "name": "TRICAFE",
+    "slug": "tricafe",
+    "location-id": 95406486,
+    "title": "TRICAFE",
+    "lat": 50.0853552218,
+    "lng": 14.4146758182
+  },
+  {
+    "has_public_page": true,
+    "id": "1412725",
+    "name": "Café Amandine",
+    "slug": "cafe-amandine",
+    "location-id": 1412725,
+    "title": "Café Amandine",
+    "lat": 50.07386,
+    "lng": 14.41779
+  },
+  {
+    "has_public_page": true,
+    "id": "237868820",
+    "name": "Costa Coffee Czech Republic",
+    "slug": "costa-coffee-czech-republic",
+    "location-id": 237868820,
+    "title": "Costa Coffee Czech Republic",
+    "lat": 50.0784808007,
+    "lng": 14.4609852207
+  },
+  {
+    "has_public_page": true,
+    "id": "1012645772",
+    "name": "Pekařství Ječmínek",
+    "slug": "pekarstvi-jecminek",
+    "location-id": 1012645772,
+    "title": "Pekařství Ječmínek",
+    "lat": 50.09008169,
+    "lng": 14.43522141
+  },
+  {
+    "has_public_page": true,
+    "id": "1027510988",
+    "name": "Home Kitchen Andel",
+    "slug": "home-kitchen-andel",
+    "location-id": 1027510988,
+    "title": "Home Kitchen Andel",
+    "lat": 50.07213,
+    "lng": 14.40114
+  },
+  {
+    "has_public_page": true,
+    "id": "1930873973861359",
+    "name": "The Visit Coffee Roastery",
+    "slug": "the-visit-coffee-roastery",
+    "location-id": 1930873973861359,
+    "title": "The Visit Coffee Roastery",
+    "lat": 52.5007499,
+    "lng": 13.41914
+  },
+  {
+    "has_public_page": true,
+    "id": "1034530150",
+    "name": "Okay Café",
+    "slug": "okay-cafe"
+  },
+  {
+    "has_public_page": true,
+    "id": "509058401",
+    "name": "Distrikt Coffee",
+    "slug": "distrikt-coffee",
+    "location-id": 509058401,
+    "title": "Distrikt Coffee",
+    "lat": 52.53156,
+    "lng": 13.39417
+  },
+  {
+    "has_public_page": true,
+    "id": "349659821",
+    "name": "Hlavní nádraží",
+    "slug": "hlavni-nadrazi"
+  },
+  {
+    "has_public_page": true,
+    "id": "1017812091",
+    "name": "Náměstí Míru",
+    "slug": "namesti-miru",
+    "location-id": 1017812091,
+    "title": "Náměstí Míru",
+    "lat": 50.0753325,
+    "lng": 14.43769
+  },
+  {
+    "has_public_page": true,
+    "id": "40649843",
+    "name": "Mezi srnky",
+    "slug": "mezi-srnky",
+    "location-id": 40649843,
+    "title": "Mezi srnky",
+    "lat": 50.07583,
+    "lng": 14.4403
+  },
+  {
+    "has_public_page": true,
+    "id": "235418580226215",
+    "name": "Double B",
+    "slug": "double-b"
+  },
+  {
+    "has_public_page": true,
+    "id": "274516426334526",
+    "name": "Bullerbyn",
+    "slug": "bullerbyn"
+  },
+  {
+    "has_public_page": true,
+    "id": "343451259",
+    "name": "StylaInterier.cz",
+    "slug": "stylainteriercz",
+    "location-id": 343451259,
+    "title": "StylaInterier.cz",
+    "lat": 50.08162,
+    "lng": 14.42452
+  },
+  {
+    "has_public_page": true,
+    "id": "425864914453902",
+    "name": "coffee corner bakery",
+    "slug": "coffee-corner-bakery",
+    "location-id": 425864914453902,
+    "title": "coffee corner bakery",
+    "lat": 50.0753,
+    "lng": 14.45403
+  },
+  {
+    "has_public_page": true,
+    "id": "13032887",
+    "name": "Node5",
+    "slug": "node5",
+    "location-id": 13032887,
+    "title": "Node5",
+    "lat": 50.06635,
+    "lng": 14.40274
+  },
+  {
+    "has_public_page": true,
+    "id": "1029205220",
+    "name": "Momoichi Coffetearia モモイチ喫茶店",
+    "slug": "momoichi-coffetearia",
+    "location-id": 1029205220,
+    "title": "Momoichi Coffetearia モモイチ喫茶店",
+    "lat": 50.07705,
+    "lng": 14.43682
+  },
+  {
+    "has_public_page": true,
+    "id": "110515979612846",
+    "name": "Sklizeno Nový Smíchov",
+    "slug": "sklizeno-novy-smichov",
+    "location-id": 110515979612846,
+    "title": "Sklizeno Nový Smíchov",
+    "lat": 50.0722352541,
+    "lng": 14.4019818306
+  },
+  {
+    "has_public_page": true,
+    "id": "106710290",
+    "name": "EMA espresso bar",
+    "slug": "ema-espresso-bar",
+    "location-id": 106710290,
+    "title": "EMA espresso bar",
+    "lat": 50.0888000977,
+    "lng": 14.4334387779
+  },
+  {
+    "has_public_page": true,
+    "id": "805684696234646",
+    "name": "Café Art - Třebíč",
+    "slug": "cafe-art-trebic",
+    "location-id": 805684696234646,
+    "title": "Café Art - Třebíč",
+    "lat": 49.21778,
+    "lng": 15.87766
+  },
+  {
+    "has_public_page": true,
+    "id": "342279507",
+    "name": "Město Třebíč",
+    "slug": "mesto-trebic",
+    "location-id": 342279507,
+    "title": "Město Třebíč",
+    "lat": 49.216484758,
+    "lng": 15.8801551025
+  },
+  {
+    "has_public_page": true,
+    "id": "1241271872622979",
+    "name": "Cafefin",
+    "slug": "cafefin",
+    "location-id": 1241271872622979,
+    "title": "Cafefin",
+    "lat": 50.0781155338,
+    "lng": 14.4484162331
+  },
+  {
+    "has_public_page": true,
+    "id": "237868820",
+    "name": "Costa Coffee Czech Republic",
+    "slug": "costa-coffee-czech-republic",
+    "location-id": 237868820,
+    "title": "Costa Coffee Czech Republic",
+    "lat": 50.0784808007,
+    "lng": 14.4609852207
+  },
+  {
+    "has_public_page": true,
+    "id": "1021776111",
+    "name": "Kavárna co hledá jméno",
+    "slug": "kavarna-co-hleda-jmeno",
+    "location-id": 1021776111,
+    "title": "Kavárna co hledá jméno",
+    "lat": 50.0697517,
+    "lng": 14.40347
+  },
+  {
+    "has_public_page": true,
+    "id": "1686706868286075",
+    "name": "Starbucks Česká republika",
+    "slug": "starbucks-ceska-republika"
+  },
+  {
+    "has_public_page": true,
+    "id": "276878862356326",
+    "name": "Café Alegre",
+    "slug": "cafe-alegre"
+  },
+  {
+    "has_public_page": true,
+    "id": "96739159",
+    "name": "Café Jen",
+    "slug": "cafe-jen",
+    "location-id": 96739159,
+    "title": "Café Jen",
+    "lat": 50.07143,
+    "lng": 14.45595
+  },
+  {
+    "has_public_page": true,
+    "id": "1020815394",
+    "name": "Doma café",
+    "slug": "doma-cafe"
+  },
+  {
+    "has_public_page": true,
+    "id": "59890598",
+    "name": "La Terra Coffee",
+    "slug": "la-terra-coffee",
+    "location-id": 59890598,
+    "title": "La Terra Coffee",
+    "lat": 50.04172,
+    "lng": 14.44575
+  },
+  {
+    "has_public_page": true,
+    "id": "248989445",
+    "name": "Kavárna Čekárna",
+    "slug": "kavarna-cekarna",
+    "location-id": 248989445,
+    "title": "Kavárna Čekárna",
+    "lat": 50.06676,
+    "lng": 14.41743
+  },
+  {
+    "has_public_page": true,
+    "id": "1032545967",
+    "name": "The Kavárna",
+    "slug": "the-kavarna",
+    "location-id": 1032545967,
+    "title": "The Kavárna",
+    "lat": 50.07334,
+    "lng": 14.44219
+  },
+  {
+    "has_public_page": true,
+    "id": "210597259352743",
+    "name": "ETNO CAFÉ Wrocław",
+    "slug": "etno-cafe-wrocaw",
+    "location-id": 210597259352743,
+    "title": "ETNO CAFÉ Wrocław",
+    "lat": 51.1076805004,
+    "lng": 17.042290302
+  },
+  {
+    "has_public_page": true,
+    "id": "266671158",
+    "name": "ibis Styles Wroclaw Centrum",
+    "slug": "ibis-styles-wroclaw-centrum",
+    "location-id": 266671158,
+    "title": "ibis Styles Wroclaw Centrum",
+    "lat": 51.09958,
+    "lng": 17.04009
+  },
+  {
+    "has_public_page": true,
+    "id": "1018086225",
+    "name": "Gniazdo",
+    "slug": "gniazdo"
+  },
+  {
+    "has_public_page": true,
+    "id": "340451255",
+    "name": "Hotel Zámek Valeč",
+    "slug": "hotel-zamek-valec"
+  },
+  {
+    "has_public_page": true,
+    "id": "252027009",
+    "name": "Cukrárna a kavárna Pod Lampou",
+    "slug": "cukrarna-a-kavarna-pod-lampou",
+    "location-id": 252027009,
+    "title": "Cukrárna a kavárna Pod Lampou",
+    "lat": 49.21697,
+    "lng": 15.87645
+  },
+  {
+    "has_public_page": true,
+    "id": "323423988010666",
+    "name": "Urban Café",
+    "slug": "urban-cafe"
+  },
+  {
+    "has_public_page": true,
+    "id": "250775171",
+    "name": "ZLÝ ČASY + PIVKUPECTVÍ - oficiální stránky",
+    "slug": "zly-casy-pivkupectvi-oficialni-stranky",
+    "location-id": 250775171,
+    "title": "ZLÝ ČASY + PIVKUPECTVÍ - oficiální stránky",
+    "lat": 50.06434,
+    "lng": 14.44204
+  },
+  {
+    "has_public_page": true,
+    "id": "826064740",
+    "name": "Home office bistro",
+    "slug": "home-office-bistro",
+    "location-id": 826064740,
+    "title": "Home office bistro",
+    "lat": 50.1041468927,
+    "lng": 14.4916022812
+  },
+  {
+    "has_public_page": true,
+    "id": "1363541",
+    "name": "Paul",
+    "slug": "paul"
+  },
+  {
+    "has_public_page": true,
+    "id": "1747937362143652",
+    "name": "VNITROBLOCK",
+    "slug": "vnitroblock",
+    "location-id": 1747937362143652,
+    "title": "VNITROBLOCK",
+    "lat": 50.101952884,
+    "lng": 14.4493228197
+  },
+  {
+    "has_public_page": true,
+    "id": "770724556",
+    "name": "Starbucks Česká republika",
+    "slug": "starbucks-ceska-republika"
+  },
+  {
+    "has_public_page": true,
+    "id": "568066700055120",
+    "name": "Mamacoffee Karlín",
+    "slug": "mamacoffee-karlin",
+    "location-id": 568066700055120,
+    "title": "Mamacoffee Karlín",
+    "lat": 50.09406,
+    "lng": 14.45093
+  },
+  {
+    "has_public_page": true,
+    "id": "2420378",
+    "name": "Můjšálekkávy",
+    "slug": "mujsalekkavy",
+    "location-id": 2420378,
+    "title": "Můjšálekkávy",
+    "lat": 50.0935,
+    "lng": 14.4551
+  },
+  {
+    "has_public_page": true,
+    "id": "25113254",
+    "name": "Čokoládová cukrárna",
+    "slug": "cokoladova-cukrarna",
+    "location-id": 25113254,
+    "title": "Čokoládová cukrárna",
+    "lat": 50.06892,
+    "lng": 14.40141
+  },
+  {
+    "has_public_page": true,
+    "id": "174072843",
+    "name": "IF Café",
+    "slug": "if-cafe",
+    "location-id": 174072843,
+    "title": "IF Café",
+    "lat": 50.0744,
+    "lng": 14.43202
+  },
+  {
+    "has_public_page": true,
+    "id": "11625541",
+    "name": "Kavárna Pražírna",
+    "slug": "kavarna-prazirna",
+    "location-id": 11625541,
+    "title": "Kavárna Pražírna",
+    "lat": 50.07491,
+    "lng": 14.43132
+  },
+  {
+    "has_public_page": true,
+    "id": "1840471532859927",
+    "name": "Rodeo Steak House Třebič",
+    "slug": "rodeo-steak-house-trebic",
+    "location-id": 1840471532859927,
+    "title": "Rodeo Steak House Třebič",
+    "lat": 49.22239,
+    "lng": 15.88442
+  },
+  {
+    "has_public_page": true,
+    "id": "808732264",
+    "name": "Kavárna Vrátka",
+    "slug": "kavarna-vratka",
+    "location-id": 808732264,
+    "title": "Kavárna Vrátka",
+    "lat": 49.217460307,
+    "lng": 15.8794446953
+  },
+  {
+    "has_public_page": true,
+    "id": "1019340872",
+    "name": "alacaffé, sro",
+    "slug": "alacaffe-sro"
+  },
+  {
+    "has_public_page": true,
+    "id": "1016929471",
+    "name": "Starbucks Česká republika",
+    "slug": "starbucks-ceska-republika"
+  },
+  {
+    "has_public_page": true,
+    "id": "142371324",
+    "name": "Café Neustadt",
+    "slug": "cafe-neustadt",
+    "location-id": 142371324,
+    "title": "Café Neustadt",
+    "lat": 50.078109119,
+    "lng": 14.4213287115
+  },
+  {
+    "has_public_page": true,
+    "id": "1024418158",
+    "name": "Kofárna Café",
+    "slug": "kofarna-cafe",
+    "location-id": 1024418158,
+    "title": "Kofárna Café",
+    "lat": 50.08023,
+    "lng": 14.40722
+  },
+  {
+    "has_public_page": true,
+    "id": "1022773120",
+    "name": "Českavárna Portheimka",
+    "slug": "ceskavarna-portheimka",
+    "location-id": 1022773120,
+    "title": "Českavárna Portheimka",
+    "lat": 50.0737501492,
+    "lng": 14.4040846825
+  },
+  {
+    "has_public_page": true,
+    "id": "237868820",
+    "name": "Costa Coffee Czech Republic",
+    "slug": "costa-coffee-czech-republic",
+    "location-id": 237868820,
+    "title": "Costa Coffee Czech Republic",
+    "lat": 50.0784808007,
+    "lng": 14.4609852207
+  },
+  {
+    "has_public_page": true,
+    "id": "235638545",
+    "name": "Kolkovna Budějovická",
+    "slug": "kolkovna-budejovicka",
+    "location-id": 235638545,
+    "title": "Kolkovna Budějovická",
+    "lat": 50.0452,
+    "lng": 14.44927
+  },
+  {
+    "has_public_page": true,
+    "id": "834836553235947",
+    "name": "Cafe Coffee Day CZ",
+    "slug": "cafe-coffee-day-cz",
+    "location-id": 834836553235947,
+    "title": "Cafe Coffee Day CZ",
+    "lat": 50.07211,
+    "lng": 14.40186
+  },
+  {
+    "has_public_page": true,
+    "id": "1853363504988968",
+    "name": "CrossCafe",
+    "slug": "crosscafe",
+    "location-id": 1853363504988968,
+    "title": "CrossCafe",
+    "lat": 50.07244,
+    "lng": 14.40372
+  },
+  {
+    "has_public_page": true,
+    "id": "469576",
+    "name": "Anděl Metro",
+    "slug": "andel-metro",
+    "location-id": 469576,
+    "title": "Anděl Metro",
+    "lat": 50.0715381729,
+    "lng": 14.4041527523
+  },
+  {
+    "has_public_page": true,
+    "id": "241344475",
+    "name": "Kandelábr restaurant",
+    "slug": "kandelabr-restaurant",
+    "location-id": 241344475,
+    "title": "Kandelábr restaurant",
+    "lat": 50.0599255083,
+    "lng": 14.4299458623
+  },
+  {
+    "has_public_page": true,
+    "id": "296517627",
+    "name": "La Bohème Café",
+    "slug": "la-boheme-cafe",
+    "location-id": 296517627,
+    "title": "La Bohème Café",
+    "lat": 50.07676,
+    "lng": 14.44084
+  },
+  {
+    "has_public_page": true,
+    "id": "64393949",
+    "name": "PIZZERIA LAGUNA",
+    "slug": "pizzeria-laguna"
+  },
+  {
+    "has_public_page": true,
+    "id": "260315589",
+    "name": "Caslavice",
+    "slug": "caslavice",
+    "location-id": 260315589,
+    "title": "Caslavice",
+    "lat": 49.15,
+    "lng": 15.7833
+  },
+  {
+    "has_public_page": true,
+    "id": "121698988",
+    "name": "Kavárna a Vinárna Salsa Třebíč",
+    "slug": "kavarna-a-vinarna-salsa-trebic",
+    "location-id": 121698988,
+    "title": "Kavárna a Vinárna Salsa Třebíč",
+    "lat": 49.2162107711,
+    "lng": 15.8802920133
+  },
+  {
+    "has_public_page": true,
+    "id": "213136875",
+    "name": "Charles Square",
+    "slug": "charles-square"
+  },
+  {
+    "has_public_page": true,
+    "id": "1017613871",
+    "name": "Starbucks Česká republika",
+    "slug": "starbucks-ceska-republika"
+  },
+  {
+    "has_public_page": true,
+    "id": "251832399",
+    "name": "Mamacoffee Vodickova",
+    "slug": "mamacoffee-vodickova",
+    "location-id": 251832399,
+    "title": "Mamacoffee Vodickova",
+    "lat": 50.0785,
+    "lng": 14.42184
+  },
+  {
+    "has_public_page": true,
+    "id": "942669766",
+    "name": "Kavárna Místo",
+    "slug": "kavarna-misto",
+    "location-id": 942669766,
+    "title": "Kavárna Místo",
+    "lat": 50.0989999,
+    "lng": 14.40435
+  },
+  {
+    "has_public_page": true,
+    "id": "269823434",
+    "name": "Café Na půl cesty",
+    "slug": "cafe-na-pul-cesty",
+    "location-id": 269823434,
+    "title": "Café Na půl cesty",
+    "lat": 50.0496142528,
+    "lng": 14.4317463467
+  },
+  {
+    "has_public_page": true,
+    "id": "1001562526632222",
+    "name": "Kavárna štěstí",
+    "slug": "kavarna-stesti"
+  },
+  {
+    "has_public_page": true,
+    "id": "428216760",
+    "name": "Paralelní Polis",
+    "slug": "paralelni-polis",
+    "location-id": 428216760,
+    "title": "Paralelní Polis",
+    "lat": 50.1034203,
+    "lng": 14.4504805
+  },
+  null,
+  {
+    "has_public_page": true,
+    "id": "239408618",
+    "name": "PAUL I.P.Pavlova",
+    "slug": "paul-ippavlova",
+    "location-id": 239408618,
+    "title": "PAUL I.P.Pavlova",
+    "lat": 50.07528,
+    "lng": 14.43123
+  },
+  {
+    "has_public_page": true,
+    "id": "1097796",
+    "name": "Friends Coffee House",
+    "slug": "friends-coffee-house",
+    "location-id": 1097796,
+    "title": "Friends Coffee House",
+    "lat": 50.08121,
+    "lng": 14.42339
+  },
+  {
+    "has_public_page": true,
+    "id": "961563341",
+    "name": "Click Coffee",
+    "slug": "click-coffee"
+  }
+]
