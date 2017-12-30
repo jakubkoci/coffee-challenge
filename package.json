@@ -6,7 +6,9 @@
   "dependencies": {
     "next": "^4.2.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.3",
+    "victory": "^0.24.3"
   },
   "scripts": {
     "dev": "next dev src",
