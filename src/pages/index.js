@@ -1,45 +1,54 @@
 import { VictoryBar, VictoryPie } from 'victory'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
+import * as service from '../service'
 import mapStyle from '../mapStyle.json'
 
-const barData = [
-  { quarter: 1, earnings: 13000 },
-  { quarter: 2, earnings: 16500 },
-  { quarter: 3, earnings: 14250 },
-  { quarter: 4, earnings: 19000 }
-];
+const Index = ({ chartData }) => {
+  return (
+    <div>
+      <h1>Coffe challenge</h1>
 
-const pieData = [
-  { x: "Cats", y: 35 },
-  { x: "Dogs", y: 40 },
-  { x: "Birds", y: 55 }
-]
+      <div className="charts">
+        <div className="chart">
+          <VictoryBar data={chartData} x="type" y="count" />
+        </div>
+        <div className="chart">
+          <VictoryPie data={chartData} x="type" y="count" />
+        </div>
+      </div>
 
-const Index = () => (
-  <div>
-    <h1>Coffe challenge</h1>
+      <MapComponent
+        isMarkerShown
+        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div style={{ height: `100%` }} />}
+        containerElement={<div style={{ height: `600px` }} />}
+        mapElement={<div style={{ height: `100%` }} />}
+      />
 
-    <VictoryBar data={barData} x="quarter" y="earnings" />
+      <style jsx>{`
+        h1 { 
+          font-family: 'Lobster', cursive;
+          font-size: 5em;
+          letter-spacing: 0.03em;
+        }
 
-    <VictoryPie data={pieData} />
+        .charts {
+          display: flexbox;
+        }
 
-    <MapComponent
-      isMarkerShown
-      googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
-      loadingElement={<div style={{ height: `100%` }} />}
-      containerElement={<div style={{ height: `600px` }} />}
-      mapElement={<div style={{ height: `100%` }} />}
-    />
+        .chart {
+          flex: 1;
+        }
+      `}</style>
+    </div>
+  )
+}
 
-    <style jsx>{`
-      h1 { 
-        font-family: 'Lobster', cursive;
-        font-size: 5em;
-        letter-spacing: 0.03em;
-      }
-    `}</style>
-  </div>
-)
+Index.getInitialProps = async (context) => {
+  console.log(context)
+  const chartData = await service.getChartData()
+  return { chartData }
+}
 
 const MapComponent = withScriptjs(withGoogleMap((props) =>
   <GoogleMap

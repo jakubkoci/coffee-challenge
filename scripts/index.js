@@ -3,8 +3,8 @@ const path = require('path')
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
 const convertToJson = require('./convertToJson')
-const coffeeData = require('../data/jakubovastovka.json')
-const locationsData = require('../data/locations.json')
+const coffeeData = require('../src/data/jakubovastovka.json')
+const locationsData = require('../src/data/locations.json')
 
 function printLocationDataStats() {
   const locationsWithGps = locationsData.filter(location => location && (location.lat && location.lng))
