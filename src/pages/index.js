@@ -28,7 +28,7 @@ const Index = ({ chartData }) => {
           <VictoryBar 
             style={{ data: { fill: d => d.color } }}
             data={chartDataWithColors} 
-            x="type" 
+            x="type"
             y="count" 
           />
         </div>
@@ -40,6 +40,24 @@ const Index = ({ chartData }) => {
             x="type" 
             y="count" 
           />
+        </div>
+        <div className="legend">
+          <table>
+            {chartDataWithColors.map(item => {
+              const size = 10
+              return (
+                <tr>
+                  <td>
+                    <svg width={size} height={size}>
+                      <rect width={size} height={size} style={{ fill: item.color }} />
+                    </svg>
+                  </td>
+                  <td>{item.type}</td>
+                  <td>{item.count}</td>
+                </tr>
+              )
+            })}
+          </table>
         </div>
       </div>
 
@@ -56,6 +74,7 @@ const Index = ({ chartData }) => {
 
       <style jsx>{`
         .content { 
+          font-family: 'Lato', sans-serif;
           max-width: 1200px;
           margin: 0 auto;
         }
@@ -64,7 +83,7 @@ const Index = ({ chartData }) => {
           font-family: 'Lobster', cursive;
           font-size: 5em;
           letter-spacing: 0.03em;
-          color: #5B3A02;
+          color: #2B1C02;
         }
 
         .charts {
@@ -73,6 +92,12 @@ const Index = ({ chartData }) => {
 
         .chart {
           flex: 1;
+        }
+
+        .legend {
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         .footer {

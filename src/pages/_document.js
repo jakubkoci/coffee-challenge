@@ -13,8 +13,12 @@ export default class HtmlDocument extends Document {
       <html>
         <Head>
           <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
           <style>{`
-            body { margin: 0 } /* custom! */
+            body { 
+              margin: 0;
+              background-color: #faf5e7;
+            }
           `}</style>
         </Head>
         <body className="custom_class">
