@@ -1,19 +1,45 @@
-import { VictoryBar, VictoryPie } from 'victory'
+import { VictoryBar, VictoryPie, VictoryChart } from 'victory'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
+import reshader from 'reshader'
 import * as service from '../service'
 import mapStyle from '../mapStyle.json'
+import { getChartData } from '../service';
+
+const BASE_COLOR = '#D9B068'
+
+const getColors = (baseColor) => {
+  return reshader(baseColor).palette.reverse()
+}
+
+const withColors = (chartData, colors) => {
+  return chartData.map((chartDataItem, index)=> ({ ...chartDataItem, color: colors[index] }))
+}
 
 const Index = ({ chartData }) => {
+  const colors = getColors(BASE_COLOR)
+  const chartDataWithColors = withColors(chartData, colors)
+
   return (
-    <div>
+    <div className="content">
       <h1>Coffe challenge</h1>
 
       <div className="charts">
         <div className="chart">
-          <VictoryBar data={chartData} x="type" y="count" />
+          <VictoryBar 
+            style={{ data: { fill: d => d.color } }}
+            data={chartDataWithColors} 
+            x="type" 
+            y="count" 
+          />
         </div>
         <div className="chart">
-          <VictoryPie data={chartData} x="type" y="count" />
+          <VictoryPie 
+            style={{ data: { fill: d => d.color } }} 
+            labels={[]} 
+            data={chartDataWithColors} 
+            x="type" 
+            y="count" 
+          />
         </div>
       </div>
 
@@ -25,19 +51,32 @@ const Index = ({ chartData }) => {
         mapElement={<div style={{ height: `100%` }} />}
       />
 
+      <div className="footer">
+      </div>
+
       <style jsx>{`
+        .content { 
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+
         h1 { 
           font-family: 'Lobster', cursive;
           font-size: 5em;
           letter-spacing: 0.03em;
+          color: #5B3A02;
         }
 
         .charts {
-          display: flexbox;
+          display: flex;
         }
 
         .chart {
           flex: 1;
+        }
+
+        .footer {
+          height: 80px;
         }
       `}</style>
     </div>
@@ -45,7 +84,6 @@ const Index = ({ chartData }) => {
 }
 
 Index.getInitialProps = async (context) => {
-  console.log(context)
   const chartData = await service.getChartData()
   return { chartData }
 }
