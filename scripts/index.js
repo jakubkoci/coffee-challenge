@@ -54,7 +54,7 @@ async function enhanceLocations() {
 
 async function scrapeLocation(locationId, title) {
   try {
-    const { stdout, stderr } = await exec(`instagram-scraper --search-location "${title}"`);
+    const { stdout, stderr } = await exec(`instagram-scraper --search-location "${title}"`)
 
     if (stderr) {
       console.error(stderr)
@@ -73,3 +73,8 @@ async function scrapeLocation(locationId, title) {
 
 // createLocationsDataFile()
 printLocationDataStats()
+
+module.exports = {
+  createLocationsDataFile,
+  printLocationDataStats,
+}

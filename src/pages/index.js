@@ -1,9 +1,9 @@
-import { VictoryBar, VictoryPie, VictoryChart } from 'victory'
+import React from 'react'
+import { VictoryBar, VictoryPie } from 'victory'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
 import reshader from 'reshader'
 import * as service from '../service'
 import mapStyle from '../mapStyle.json'
-import { getChartData } from '../service';
 
 const BASE_COLOR = '#D9B068'
 
@@ -46,7 +46,7 @@ const Index = ({ chartData }) => {
             {chartDataWithColors.map(item => {
               const size = 10
               return (
-                <tr>
+                <tr key={item.type}>
                   <td>
                     <svg width={size} height={size}>
                       <rect width={size} height={size} style={{ fill: item.color }} />
@@ -64,9 +64,9 @@ const Index = ({ chartData }) => {
       <MapComponent
         isMarkerShown
         googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
-        loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `600px` }} />}
-        mapElement={<div style={{ height: `100%` }} />}
+        loadingElement={<div style={{ height: '100%' }} />}
+        containerElement={<div style={{ height: '600px' }} />}
+        mapElement={<div style={{ height: '100%' }} />}
       />
 
       <div className="footer">
@@ -108,7 +108,7 @@ const Index = ({ chartData }) => {
   )
 }
 
-Index.getInitialProps = async (context) => {
+Index.getInitialProps = async () => {
   const chartData = await service.getChartData()
   return { chartData }
 }

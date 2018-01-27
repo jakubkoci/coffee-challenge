@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^8.2.1",
     "next": "^4.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -16,9 +17,13 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "build": "next build src",
-    "start": "next start"
+    "start": "next start",
+    "lint": "./node_modules/.bin/eslint scripts src",
+    "lint:fix": "./node_modules/.bin/eslint --fix scripts src"
   },
   "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.6.0",
     "jest": "^21.2.1"
   }
 }
