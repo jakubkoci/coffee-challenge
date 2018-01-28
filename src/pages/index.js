@@ -1,5 +1,5 @@
 import React from 'react'
-import { VictoryBar, VictoryPie } from 'victory'
+import { VictoryBar, VictoryPie, VictoryTooltip } from 'victory'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
 import reshader from 'reshader'
 import * as service from '../service'
@@ -11,13 +11,16 @@ const getColors = (baseColor) => {
   return reshader(baseColor).palette.reverse()
 }
 
-const withColors = (chartData, colors) => {
+const withColors = (colors) => (chartData) => {
   return chartData.map((chartDataItem, index)=> ({ ...chartDataItem, color: colors[index] }))
+}
+
+const withLabels = (chartData) => {
+  return chartData.map((chartDataItem)=> ({ ...chartDataItem, label: chartDataItem.type }))
 }
 
 const Index = ({ chartData }) => {
   const colors = getColors(BASE_COLOR)
-  const chartDataWithColors = withColors(chartData, colors)
 
   return (
     <div className="content">
@@ -27,23 +30,39 @@ const Index = ({ chartData }) => {
         <div className="chart">
           <VictoryBar 
             style={{ data: { fill: d => d.color } }}
-            data={chartDataWithColors} 
+            data={withLabels(withColors(colors)(chartData))} 
             x="type"
-            y="count" 
+            y="count"
+            labelComponent={
+              <VictoryTooltip 
+                flyoutStyle={{ fill: '#faf5e7', stroke: '#2B1C02', margin: 0 }} 
+                cornerRadius={1}
+                pointerLength={3}
+                pointerWidth={4}
+              />
+            }
           />
         </div>
         <div className="chart">
           <VictoryPie 
             style={{ data: { fill: d => d.color } }} 
-            labels={[]} 
-            data={chartDataWithColors} 
-            x="type" 
-            y="count" 
+            labels={[]}
+            labelComponent={
+              <VictoryTooltip 
+                flyoutStyle={{ fill: '#faf5e7', stroke: '#2B1C02', margin: -10 }} 
+                cornerRadius={1}
+                pointerLength={3}
+                pointerWidth={4}
+              />
+            }
+            data={withLabels(withColors(colors)(chartData))} 
+            x="type"
+            y="count"
           />
         </div>
         <div className="legend">
           <table>
-            {chartDataWithColors.map(item => {
+            {withColors(colors)(chartData).map(item => {
               const size = 10
               return (
                 <tr key={item.type}>
