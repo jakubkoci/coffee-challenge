@@ -24,3 +24,12 @@ jobs:
 
       # run tests!
       - run: yarn test
+      - run: yarn build
+
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run: echo 'Deploying...'
+      - run: scp .next/* kuba@159.89.28.202:/home/kuba/www/coffee-challenge/.next/
+      - run: ssh -v kuba@159.89.28.202 "cd ~/www/reverse-proxy; sudo docker-compose up -d”
