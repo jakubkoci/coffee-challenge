@@ -25,11 +25,34 @@ jobs:
       # run tests!
       - run: yarn test
       - run: yarn build
+      - run: pwd
+      - run: ls -la
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - .next
+            - Dockerfile
+            - run.sh
+      - run: ls -la
 
   deploy:
     machine:
       enabled: true
     steps:
       - run: echo 'Deploying...'
-      - run: scp .next/* kuba@159.89.28.202:/home/kuba/www/coffee-challenge/.next/
-      - run: ssh -v kuba@159.89.28.202 "cd ~/www/reverse-proxy; sudo docker-compose up -d”
+      - attach_workspace:
+          at: ~/project
+      - run: pwd
+      - run: ls -la
+      - run: scp -vr ~/project/.next kuba@159.89.28.202:/home/kuba/www/coffee-challenge
+      - run: scp -v ~/project/Dockerfile ~/project/run.sh kuba@159.89.28.202:/home/kuba/www/coffee-challenge
+      - run: ssh -v kuba@159.89.28.202 "cd ~/www/reverse-proxy; sudo docker-compose up -d"
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
