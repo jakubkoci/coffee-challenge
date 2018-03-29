@@ -7,6 +7,11 @@ import mapStyle from '../mapStyle.json'
 
 const BASE_COLOR = '#D9B068'
 
+const GOOGLE_MAP_API_KEY = 'AIzaSyAygeTGTlo0iMJLFXnEGYK9T9mYxwrTqH0'
+const GOOGLE_MAP_API_URL = 'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places'
+
+const googleMapUrl = `${GOOGLE_MAP_API_URL}&key=${GOOGLE_MAP_API_KEY}`
+
 const getColors = (baseColor) => {
   return reshader(baseColor).palette.reverse()
 }
@@ -82,7 +87,7 @@ const Index = ({ chartData }) => {
 
       <MapComponent
         isMarkerShown
-        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+        googleMapURL={googleMapUrl}
         loadingElement={<div style={{ height: '100%' }} />}
         containerElement={<div style={{ height: '600px' }} />}
         mapElement={<div style={{ height: '100%' }} />}

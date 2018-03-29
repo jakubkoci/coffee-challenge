@@ -18,7 +18,7 @@ export default class HtmlDocument extends Document {
           <style>{`
             body { 
               margin: 0;
-              background-color: #faf5e7;
+              background-color: #fbf8f0;
             }
           `}</style>
         </Head>
