@@ -47,7 +47,7 @@ jobs:
       - run: ls -la
       - run: scp -vr ~/project/.next kuba@159.89.28.202:/home/kuba/www/coffee-challenge
       - run: scp -v ~/project/Dockerfile ~/project/run.sh ~/project/package.json kuba@159.89.28.202:/home/kuba/www/coffee-challenge
-      # - run: ssh -v kuba@159.89.28.202 "cd ~/www/reverse-proxy; sudo docker-compose up -d"
+      - run: ssh -v kuba@159.89.28.202 "cd ~/www; sudo ./deploy.sh"
 
 workflows:
   version: 2

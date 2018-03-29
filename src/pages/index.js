@@ -24,7 +24,7 @@ const Index = ({ chartData }) => {
 
   return (
     <div className="content">
-      <h1>Coffe challenge</h1>
+      <h1>Coffee challenge</h1>
 
       <div className="charts">
         <div className="chart">
