@@ -1,6 +1,7 @@
 import React from 'react'
 import { VictoryBar, VictoryPie, VictoryTooltip } from 'victory'
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
+import { withScriptjs, withGoogleMap, GoogleMap, Marker, InfoWindow } from 'react-google-maps'
+import { compose, withStateHandlers } from 'recompose'
 import reshader from 'reshader'
 import * as service from '../service'
 import mapStyle from '../mapStyle.json'
@@ -86,7 +87,7 @@ const Index = ({ chartData }) => {
       </div>
 
       <MapComponent
-        isMarkerShown
+        locations={service.getLocationsData()}
         googleMapURL={googleMapUrl}
         loadingElement={<div style={{ height: '100%' }} />}
         containerElement={<div style={{ height: '600px' }} />}
@@ -137,14 +138,36 @@ Index.getInitialProps = async () => {
   return { chartData }
 }
 
-const MapComponent = withScriptjs(withGoogleMap((props) =>
+const MapComponent = compose(
+  withStateHandlers(() => ({
+    openLocationId: null,
+  }), {
+    onToggleOpen: ({ openLocationId }) => (locationId) => {
+      return {
+        openLocationId: openLocationId === locationId ? null : locationId
+      }
+    }
+  }),
+  withScriptjs,
+  withGoogleMap
+)(({ locations, openLocationId, onToggleOpen }) =>
   <GoogleMap
-    defaultZoom={7}
+    defaultZoom={6}
     defaultCenter={{ lat: 50.1722983, lng: 14.4980394 }}
     defaultOptions={{ styles: mapStyle }}
   >
-    {props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} />}
+    {locations.map((location, index) => {
+      return (
+        <Marker key={location.id + index} position={{ lat: location.lat, lng: location.lng }} onClick={() => onToggleOpen(location.id)}>
+          {openLocationId === location.id && (
+            <InfoWindow onCloseClick={() => onToggleOpen(null)}>
+              <span>{location.name}</span>
+            </InfoWindow>
+          )}
+        </Marker>
+      )
+    })}
   </GoogleMap>
-))
+)
 
 export default Index

@@ -1,4 +1,5 @@
 import jakubovastovka from './data/jakubovastovka.json'
+import locations from './data/locations.json'
 
 const coffeeTypes = {
   'cappuccino': [ 
@@ -57,6 +58,10 @@ export function getChartData() {
     })
 
   return chartData
+}
+
+export function getLocationsData() {
+  return locations.filter(location => location && location.lat && location.lng)
 }
 
 function initTags(types) {

@@ -9,6 +9,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-google-maps": "^9.4.3",
+    "recompose": "^0.27.1",
     "reshader": "^1.0.0",
     "victory": "^0.24.3"
   },
