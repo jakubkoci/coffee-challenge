@@ -86,37 +86,44 @@ const Index = ({ chartData }) => {
         </div>
       </div>
 
-      <MapComponent
-        locations={service.getLocationsData()}
-        googleMapURL={googleMapUrl}
-        loadingElement={<div style={{ height: '100%' }} />}
-        containerElement={<div style={{ height: '600px' }} />}
-        mapElement={<div style={{ height: '100%' }} />}
-      />
-
-      <div className="footer">
+      <div className="map">
+        <MapComponent
+          locations={service.getLocationsData()}
+          googleMapURL={googleMapUrl}
+          loadingElement={<div style={{ height: '100%' }} />}
+          containerElement={<div style={{ height: '600px' }} />}
+          mapElement={<div style={{ height: '100%' }} />}
+        />
       </div>
 
       <style jsx>{`
         .content { 
           font-family: 'Lato', sans-serif;
-          max-width: 1200px;
+          max-width: 68.750em;
           margin: 0 auto;
         }
 
         h1 { 
           font-family: 'Lobster', cursive;
-          font-size: 5em;
+          font-size: 2.5rem;
           letter-spacing: 0.03em;
           color: #2B1C02;
+          padding: 0.5em 0.5em;
+          margin: 0;
         }
 
         .charts {
           display: flex;
+          flex-direction: column;
+          padding: 2em 0;
         }
 
         .chart {
           flex: 1;
+        }
+
+        .chart-pie {
+          padding: 2em;
         }
 
         .legend {
@@ -125,8 +132,36 @@ const Index = ({ chartData }) => {
           align-items: center;
         }
 
-        .footer {
-          height: 80px;
+        .map {
+          padding: 2em 0 3em 0;
+        }
+
+        @media screen and (min-width: 600px) {
+          h1 {
+            font-size: 3.5rem;
+            padding: 0.5em 1.5em;
+          }
+
+          .charts {
+            padding: 2em 6em;
+          }
+        }
+
+        @media screen and (min-width: 900px) {
+          .charts {
+            flex-direction: row;
+          }
+        }
+
+        @media screen and (min-width: 1200px) {
+          h1 {
+            font-size: 4.5rem;
+            padding: 0.5em 0.5em;
+          }
+
+          .charts {
+            padding: 2em 0;
+          }
         }
       `}</style>
     </div>
