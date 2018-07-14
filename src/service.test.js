@@ -1,7 +1,7 @@
 import * as service from './service'
 
 test('getChartData', () => {
-  expect(service.getChartData())
+  expect(service.getChartsData())
     .toEqual([
       { type: 'flatwhite', count: 41 },
       { type: 'espresso', count: 16 },

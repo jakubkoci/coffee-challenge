@@ -28,15 +28,15 @@ const coffeeTypes = {
   ],
 }
 
-export function getChartData() {
+export function getChartsData() {
   const allTagsMap = jakubovastovka.map(instagramEntry => instagramEntry.tags).reduce((tmpTagsMap, photoTagsArray) => {
     photoTagsArray.reduce((tagsMap, photoTag) => {
-      if (tmpTagsMap[photoTag]) {
-        tmpTagsMap[photoTag] = tmpTagsMap[photoTag] + 1 
+      if (tagsMap[photoTag]) {
+        tagsMap[photoTag] = tagsMap[photoTag] + 1 
       } else {
-        tmpTagsMap[photoTag] = 1
+        tagsMap[photoTag] = 1
       }
-      return tmpTagsMap
+      return tagsMap
     }, tmpTagsMap)
     return tmpTagsMap
   }, {})
