@@ -14,4 +14,4 @@ EXPOSE 3000
 # docker build -t coffee-challenge .
 
 # Run
-# docker run -t --rm -v $PWD:/usr/src/app -p 3000:3000 coffee-challenge
+# docker run -t --rm -v $PWD:/usr/src/app -p 3001:3000 coffee-challenge
